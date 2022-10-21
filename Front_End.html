@@ -1,1 +1,34 @@
 <!-- New HTML file, can be opened using VS Code -->
+<!DOCTYPE html>
+<html>
+<body>
+<title>Appointment Application</title>
+<h1 style="font-size: 40px">Schedule an Appointment</h1>
+
+<form class="animated fadeInUp" action="confirmation.html" method="post">
+  <br></br>
+  <label for="fname">First Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="name">Last Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="phone">Phone Number:</label>
+  <input type="text" id="phone" name="phone"><br><br>
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="visitdate">Date for Visit:</label>
+  <input type="date" id="visitdate" name="visitdate"><br><br>
+  <select class="form-control" name="location" id="location">
+
+			        <option value="none" selected="" disabled="" hidden="">
+			          Select a Location: <br>
+			      	</option>
+			        <option value="locationA">Location 1</option>
+			        <option value="locationB">Location 2</option>
+					</select> <br></br>
+					
+	
+				
+<button type="submit" value="submit "class="button" style="vertical-align:middle"><span>Submit</span></button><br></br>
+</form>   
+</body>
+</html>
